@@ -1,4 +1,4 @@
-# Apex Auditor is a program designed to extract, from video imaging, the signal amplitudes and analyse peak intervals within live heart tissue. Only pixels with organised activity are included:
+# Apex Auditor is a program designed to extract, directly from video imaging, the signal amplitudes and analyse peak intervals within live heart tissue. Only pixels with organised activity are included.
 Bespoke program for LCS designed to produce an analysis of the signal from 'active' / 'seemingly organised' areas of SAN tissues captured with PCO camera. 'noisy' areas and non san tissue excluded automatically. Allows for multiple files (of several gb in size) to be uploaded and will concatenate the signals from them with no manual steps required.
 - simple interface (uses Tkinker) to display uploaded files and allow for settings to be changed (to optimise signal detection)
 - uses numpy/scipy and vectorised calculations where possible to improve performance
