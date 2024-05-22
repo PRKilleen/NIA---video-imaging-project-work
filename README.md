@@ -12,7 +12,7 @@ Bespoke program for the LCS designed to produce an analysis of the signal from '
 - third step: peaks are found within this signal using find_peaks and data printed out for these peaks; ie: signal frequency (mean cycle length) and irregularity (standard deviation cycle length) as well as violin and 'intervalogram' plots.
 - sensible settings for peak detection are used as defaults, but these settings can be changed after visualisation of signal and peak detection re-run to ensure correct peaks are captured
 - fourth step: signal amplitudes can be saved as a csv ; can be opened in excel or uploaded to another program for further analysis
-- 
+
 Cardiotographer:
 Bespoke program created for the LCS designed to display the shape and velocity of calcium signal propagation across the mouse sino-atrial tissue.
 - simple interface (uses Tkinker) to display uploaded files
